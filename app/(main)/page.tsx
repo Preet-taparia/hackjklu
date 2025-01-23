@@ -19,7 +19,7 @@ export default function Home() {
       <Hero />
       <AboutStrip />
       <VelocityScroll>
-        HackJKLU v4.0 |
+        HackJKLU v4.0 | JKLU |
       </VelocityScroll>
       <About />
       <VelocityScroll>
