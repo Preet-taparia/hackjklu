@@ -1,9 +1,6 @@
 "use client";
 
-import { Stars } from "@react-three/drei";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { Points } from "three";
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 import { Press_Start_2P } from "next/font/google";
@@ -15,19 +12,6 @@ const press_start_2p = Press_Start_2P({
   subsets: ["latin"],
   preload: true,
 });
-
-const RotatingStars = () => {
-  const starsRef = useRef<Points>(null);
-
-  useFrame(() => {
-    if (starsRef.current) {
-      starsRef.current.rotation.y += 0.0001;
-      starsRef.current.rotation.x -= 0.0001;
-    }
-  });
-
-  return <Stars ref={starsRef} radius={50} count={1000} factor={4} fade speed={1} />;
-};
 
 const CountdownTimer = () => {
   const [timeRemaining, setTimeRemaining] = useState({
