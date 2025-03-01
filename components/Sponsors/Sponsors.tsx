@@ -56,7 +56,7 @@ const MajorSponsor: React.FC<{
   roundedSide: "left" | "right";
 }> = ({ name, image, bgColor, link, description, roundedSide }) => {
   return (
-    <a href={link} className="w-full xl:max-w-[95%] flex justify-center md:px-8 lg:px-0">
+    <a href={link} className="w-full xl:max-w-[95%] flex justify-center md:px-8 lg:px-0" target="_blank" rel="noopener noreferrer">
       <div className={`flex flex-col md:flex-row ${roundedSide === "left" ? "md:flex-row-reverse" : ""} min-h-[350px] md:max-h-[350px] w-full`}>
         <div className="w-full md:w-4/12">
           <Image className="w-full h-full object-contain rounded-t-[20px] md:rounded-none" src={image} alt={name} />
