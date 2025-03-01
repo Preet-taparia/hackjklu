@@ -24,6 +24,24 @@
     "image": "/sponsors/balsamiq.webp"
   },
   {
+    "sponsor": "BlockPen",
+    "category": "Bronze Partner",
+    "site": "#",
+    "image": "/sponsors/blockpen.webp"
+  },
+  {
+    "sponsor": "Fluxor",
+    "category": "Bronze Partner",
+    "site": "https://fluxor.io/",
+    "image": "/sponsors/fluxor.webp"
+  },
+  {
+    "sponsor": "Dev Station",
+    "category": "Community Partner",
+    "site": "#",
+    "image": "/sponsors/dev-station.webp"
+  },
+  {
     "sponsor": "Devarmy",
     "category": "Community Partner",
     "site": "https://thedevarmy.com/",

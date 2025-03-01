@@ -8,7 +8,6 @@ import sponsorsData from "@/data/sponsors.json";
 import wscubeTech from "@/public/sponsors/WsCubeTech.webp";
 import ention from "@/public/sponsors/ention.webp";
 
-
 import gfg from "@/public/sponsors/geeksforgeeks.webp";
 import devfolio from "@/public/sponsors/devfolio.webp";
 import ethindia from "@/public/sponsors/ethindia.webp";
@@ -19,6 +18,7 @@ import iitDelhi from "@/public/sponsors/iit_delhi.webp";
 import iitKharagpur from "@/public/sponsors/iit_kharagpur.webp";
 import iiitDelhi from "@/public/sponsors/iiit_delhi.webp";
 import iitPatna from "@/public/sponsors/iit_patna.webp";
+import devStation from "@/public/sponsors/dev-station.webp"
 
 
 import Header from "../Header/Header";
@@ -36,6 +36,7 @@ const imageMap: { [key: string]: StaticImageData } = {
   "IIT Kharagpur": iitKharagpur,
   "IIIT Delhi": iiitDelhi,
   "IIT Patna": iitPatna,
+  "devStation": devStation,
 };
 
 // Map sponsors, handling both imported and JSON image paths
@@ -76,7 +77,7 @@ const MajorSponsor: React.FC<{
 const Sponsors: React.FC = () => {
   return (
     <section className="relative pb-20 pt-20" id="partners">
-      <h2 className="text-center mb-10">
+      <h2 className="text-center mb-5">
         <Header text="Partners" />
       </h2>
 

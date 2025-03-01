@@ -55,7 +55,7 @@ const Theme: React.FC = () => {
       <h2 className="text-center my-5 sm:my-10">
         <Header text="Themes" />
       </h2>
-      <div className="relative flex flex-col items-center justify-center mt-8 sm:mt-16 mb-8 sm:mb-12">
+      <div className="relative flex flex-col items-center justify-center mb-8 sm:mb-12">
         <div 
           className="relative w-full max-w-3xl h-[350px] sm:h-[450px] flex items-center justify-center"
           onMouseEnter={() => setIsHoveredOrTapped(true)}
