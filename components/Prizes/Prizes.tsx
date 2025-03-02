@@ -203,9 +203,16 @@ const Prize = () => {
               <p className="text-[#C3C3C3] text-[20px] font-normal text-center">
                 Social Media Winners consists of Linkedin, Instagram, Youtube Vlog
               </p>
-              {/* <button className="text-[#C3C3C3] w-full max-w-[300px] p-3 rounded-lg border border-white text-[20px] font-normal text-center">
-                View Documentation
-              </button> */}
+              {/* <a
+                href="/prizesPage/Documentation%20for%20Make-a-thon%20-%20HackJKLU%20v4.0.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full max-w-[300px]"
+              >
+                <button className="text-[#C3C3C3] w-full p-3 rounded-lg border border-white text-[20px] font-normal text-center">
+                  Documentation
+                </button>
+              </a> */}
             </div>
           </div>
           <div
@@ -234,9 +241,16 @@ const Prize = () => {
               <p className="text-[#C3C3C3] text-[20px] font-normal text-center">
                 Make-a-thon is a competition for school students
               </p>
-              {/* <button className="text-[#C3C3C3] w-full max-w-[300px] p-3 rounded-lg border border-white text-[20px] font-normal text-center">
-                View Rules
-              </button> */}
+              <a
+                href="/prizesPage/Documentation%20for%20Make-a-thon%20-%20HackJKLU%20v4.0.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full max-w-[300px]"
+              >
+                <button className="text-[#C3C3C3] w-full p-3 rounded-lg border border-white text-[20px] font-normal text-center">
+                  View Rules
+                </button>
+              </a>
             </div>
           </div>
         </div>
