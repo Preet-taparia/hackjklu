@@ -6,7 +6,8 @@ export async function GET() {
   const pages = [
     { url: `${siteUrl}/`, priority: 1.0 },
     { url: `${siteUrl}/events`, priority: 0.8 },
-    { url: `${siteUrl}/sponsors/ws-cube-tech`, priority: 0.7 },
+    { url: `${siteUrl}/partners/ws-cube-tech`, priority: 0.7 },
+    { url: `${siteUrl}/partners/ention`, priority: 0.7 },
     { url: `${siteUrl}/submit-your-problem`, priority: 0.7 },
     { url: `${siteUrl}/team`, priority: 0.6 },
   ];
