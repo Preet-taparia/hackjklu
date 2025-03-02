@@ -5,6 +5,7 @@ export default {
   },
   images: {
     formats: ["image/webp"],
+    domains: ["api.microlink.io"],
   },
   compress: true,
   swcMinify: true,
