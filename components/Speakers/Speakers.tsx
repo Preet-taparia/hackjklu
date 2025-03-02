@@ -71,15 +71,16 @@ const Speakers = () => {
 
           {/* Instagram reel overlay */}
           <div
-            className={`absolute inset-0 transition-opacity duration-500 z-20 ${
-              showReel ? "opacity-100" : "opacity-0"
-            }`}
+            className={`absolute inset-0 transition-opacity duration-500 z-20 ${showReel ? "opacity-100" : "opacity-0"
+              }`}
           >
-            <blockquote
-              className="instagram-media w-full h-full"
-              data-instgrm-permalink="https://www.instagram.com/p/DGQTeRSS7br/?utm_source=ig_embed&amp;utm_campaign=loading"
-              data-instgrm-version="12"
-            ></blockquote>
+            <div className="w-full h-full max-w-full overflow-hidden">
+              <blockquote
+                className="instagram-media w-full h-full"
+                data-instgrm-permalink="https://www.instagram.com/p/DGQTeRSS7br/?utm_source=ig_embed&amp;utm_campaign=loading"
+                data-instgrm-version="12"
+              ></blockquote>
+            </div>
           </div>
         </div>
 
