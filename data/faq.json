@@ -1,22 +1,39 @@
 [
   {
-    "question": "Team Size?",
-    "answer": "1-5 participants"
+    "question": "1. What is the team size for the hackathon?",
+    "answer":    "Team size ranges from 1 to 5 participants."
   },
   {
-    "question": "Is there a fee to participate in the hackathon?",
-    "answer": "No, it is free to participate. But food charges are applicable."
+    "question": "2. Is there a fee to participate in the hackathon?",
+    "answer": "No, participation is completely free! However, food charges are applicable."
   },
   {
-    "question": "Is hackathon offline or online?",
-    "answer": "It's a completely offline hackathon at JKLU in Jaipur"
+    "question": "3. Is the hackathon online or offline?",
+    "answer": "HackJKLU is an offline event, taking place at JK Lakshmipat University in Jaipur."
   },
   {
-    "question": "Will there be food and living accommodation at the hackathon location?",
-    "answer": "Yes, Participants can avail university food at very minimal cost and accommodations are free."
+    "question": "4. Will there be food and accommodation at the hackathon?",
+    "answer": "Yes! Participants can avail the food at the standard cost, and accommodation will be provided free of charge."
+
   },
   {
-    "question": "Where does the hackathon take place?",
-    "answer": "JK Lakshmipat University, Jaipur (Google maps link is in the footer)"
+    "question": "5. Where does the hackathon take place?",
+    "answer": "The event will be held at JK Lakshmipat University, Jaipur. You can find the location on Google Maps here."
+  },
+  {
+    "question": "6. Do I need prior hackathon experience to participate?",
+    "answer": "Not at all! HackJKLU is open to all skill levels. We have mentors, resources, and workshops to help you get started."
+
+  },
+  {
+    "question": "7. What happens if I face technical issues during the hackathon?",
+    "answer": "Don’t worry! A dedicated support team and mentors will be available throughout the event. You can also reach out to us on our Discord channel for quick assistance."
+
+  },
+  {
+    "question": "8. What if it's my first hackathon?",
+    "answer": "No need to worry! We have partnered with WsCubeTech to provide specially designed courses for HackJKLU participants, which you can access free of cost to help you prepare for the event."
+
   }
+
 ]

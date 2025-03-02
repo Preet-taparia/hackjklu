@@ -2,7 +2,7 @@
   {
     "sponsor": "Geeks For Geeks",
     "category": "Silver Partner",
-    "site": "https://example.com",
+    "site": "https://www.geeksforgeeks.org/",
     "image": "/sponsors/geeksforgeeks.webp"
   },
   {
@@ -24,9 +24,27 @@
     "image": "/sponsors/balsamiq.webp"
   },
   {
+    "sponsor": "BlockPen",
+    "category": "Bronze Partner",
+    "site": "#",
+    "image": "/sponsors/blockpen.webp"
+  },
+  {
+    "sponsor": "Fluxor",
+    "category": "Bronze Partner",
+    "site": "https://fluxor.io/",
+    "image": "/sponsors/fluxor.webp"
+  },
+  {
+    "sponsor": "Dev Station",
+    "category": "Community Partner",
+    "site": "#",
+    "image": "/sponsors/dev-station.webp"
+  },
+  {
     "sponsor": "Devarmy",
     "category": "Community Partner",
-    "site": "https://example.com",
+    "site": "https://thedevarmy.com/",
     "image": "/sponsors/devarmy.webp"
   },
   {

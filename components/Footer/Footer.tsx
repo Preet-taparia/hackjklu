@@ -2,6 +2,7 @@
 import React from "react";
 import { FaYoutube } from "react-icons/fa";
 import { BiLogoInstagramAlt, BiLogoLinkedinSquare } from "react-icons/bi";
+import { FaHeart } from "react-icons/fa";
 
 interface SocialMediaIconProps {
   Icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
@@ -18,7 +19,9 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-[#000000c6] mt-4 md:mt-8 text-white p-5 md:p-8 relative z-[10]">
       <div className="text-center text-lg md:text-xl font-bold italic py-6 md:py-10">
-        <span className="text-white">&quot;It&apos;s not just about writing </span>
+        <span className="text-white">
+          &quot;It&apos;s not just about writing{" "}
+        </span>
         <span className="text-neonGreen font-semibold">code</span>
         <span className="text-white">, it&apos;s about the </span>
         <span className="text-neonGreen font-semibold">experience</span>
@@ -32,31 +35,35 @@ const Footer: React.FC = () => {
           {/* Address and Contact Info */}
           <div className="w-full md:w-1/2 flex flex-col">
             <div className="mt-4 md:mr-12 mb-6">
-              <h4 className="text-lg font-normal tracking-wide text-neonGreen relative after:content-[''] after:bg-neonGreen after:h-[1px] after:w-0 after:left-0 after:bottom-[-4px] after:absolute after:transition-all after:duration-300 hover:after:w-full w-max cursor-pointer">
+              <h4 className="text-lg font-normal tracking-wide text-neonGreen">
                 ADDRESS
               </h4>
               <p className="text-sm md:text-base mt-2">
-                JK LAKSHMIPAT UNIVERSITY, P.O. 302 026, MAHAPURA RD, NEAR MAHINDRA SEZ, MAHAPURA, RAJASTHAN 302026
+                JK LAKSHMIPAT UNIVERSITY, P.O. 302 026, MAHAPURA RD, NEAR
+                MAHINDRA SEZ, MAHAPURA, RAJASTHAN 302026
               </p>
             </div>
 
-            <div className="">
-              <h4 className="text-lg font-normal tracking-wide text-neonGreen relative after:content-[''] after:bg-neonGreen after:h-[1px] after:w-0 after:left-0 after:bottom-[-4px] after:absolute after:transition-all after:duration-300 hover:after:w-full w-max cursor-pointer">
+            <div>
+              <h4 className="text-lg font-normal tracking-wide text-neonGreen">
                 CONTACT INFO
               </h4>
               <p className="text-sm md:text-base mt-2">
                 <strong>Email:</strong>
                 <br />
-                General queries:
-                <br className="block md:hidden" />
-                <a href="mailto:hackjklu@jklu.edu.in" className="text-white hover:text-neonGreen">
+                General queries:{" "}
+                <a
+                  href="mailto:hackjklu@jklu.edu.in"
+                  className="text-white hover:text-neonGreen"
+                >
                   hackjklu@jklu.edu.in
                 </a>
-                <br className="block md:hidden" />
                 <br />
-                Technical issues:
-                <br className="block md:hidden" />
-                <a href="mailto:counciloftechnicalaffairs@jklu.edu.in" className="text-white hover:text-neonGreen">
+                Technical issues:{" "}
+                <a
+                  href="mailto:counciloftechnicalaffairs@jklu.edu.in"
+                  className="text-white hover:text-neonGreen"
+                >
                   counciloftechnicalaffairs@jklu.edu.in
                 </a>
               </p>
@@ -72,6 +79,23 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
+          <div className="w-full md:w-1/2">
+            <div className="bg-[#111] p-6 rounded-md shadow-lg text-center md:text-left">
+              <h4 className="text-lg font-semibold text-neonGreen mb-2">Code of Conduct</h4>
+              <p className="text-sm md:text-base text-gray-300 mb-4">
+                We are committed to fostering a respectful and inclusive environment for all participants. Please read our Code of Conduct.
+              </p>
+              <a
+                href="https://devfolio.co/code-of-conduct"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-4 py-2 bg-neonGreen text-black font-semibold rounded-md transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-green-400"
+              >
+                Read Code of Conduct
+              </a>
+            </div>
+          </div>
+        
           {/* Map */}
           <div className="w-full md:w-1/2">
             <div className="overflow-hidden rounded-md">
@@ -90,24 +114,52 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Footer Bottom Section */}
-      <div className="flex flex-col mt-6  text-center md:text-left">
+      <div className="flex flex-col mt-6 text-center md:text-left">
         <div className="px-1 md:px-12 flex flex-col lg:flex-row gap-4 lg:gap-12 justify-center lg:justify-between items-center">
           {/* Social Media Icons */}
           <div className="flex gap-6">
-            <SocialMediaIcon href="https://www.instagram.com/hackjklu" Icon={BiLogoInstagramAlt} />
-            <SocialMediaIcon href="https://www.youtube.com/@CouncilofTechnicalAffairs" Icon={FaYoutube} />
-            <SocialMediaIcon href="https://www.linkedin.com/in/council-of-technical-affairs-jklu/" Icon={BiLogoLinkedinSquare} />
+            <SocialMediaIcon
+              href="https://www.instagram.com/hackjklu"
+              Icon={BiLogoInstagramAlt}
+            />
+            <SocialMediaIcon
+              href="https://www.youtube.com/@CouncilofTechnicalAffairs"
+              Icon={FaYoutube}
+            />
+            <SocialMediaIcon
+              href="https://www.linkedin.com/in/council-of-technical-affairs-jklu/"
+              Icon={BiLogoLinkedinSquare}
+            />
           </div>
 
           {/* Copyright */}
           <p className="text-white text-sm md:text-base font-normal">
             © 2025 HackJKLU v4.0, All rights reserved
           </p>
+          {/* Made By - Drop-up Effect */}
+          <div className="relative group">
+            <p className="text-white text-sm md:text-base font-normal cursor-pointer transition-colors duration-300 hover:text-neonGreen flex items-center gap-1">
+              Made by <FaHeart className="text-red-500 animate-pulse" />
+            </p>
 
-          {/* Made By */}
-          <p className="text-white text-sm md:text-base font-normal">
-            Made with ❤️ by Preet Taparia and Team
-          </p>
+            {/* Drop-Up Effect with Vertical Names */}
+            <div className="absolute left-1/2 transform -translate-x-1/2 -top-32 bg-[#111] text-white text-xs px-6 py-3 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-lg flex flex-col items-center gap-2 w-40">
+              {["Preet Taparia", "Rakshika Sharma", "Labish", "Yash"].map(
+                (name, index) => (
+                  <span
+                    key={index}
+                    className="block text-neonGreen opacity-0 translate-y-2 scale-95 group-hover:opacity-100 group-hover:translate-y-0 group-hover:scale-100 transition-all duration-500 ease-in-out"
+                    style={{
+                      transitionDelay: `${index * 150}ms`, // Ek-ek karke smooth entry
+                      textShadow: "0px 0px 5px rgba(57, 255, 20, 0.8)", // Light neon glow
+                    }}
+                  >
+                    {name}
+                  </span>
+                )
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </footer>

@@ -93,7 +93,7 @@ const Hero = () => {
               <span style={{ color: "#0bfb00" }}>JKLU</span> v4.0
             </CardItem>
             <CardItem translateZ="50" className={`text-xl sm:text-3xl text-center font-bold text-white flex items-center justify-center gap-1 ${press_start_2p.className}`}>
-              Copowered By ENTION
+              Co-powered By ENTION
               {/* <span className="inline-block">
                 <img src="/sponsors/ention.webp" width={100} className="inline" />
               </span> */}

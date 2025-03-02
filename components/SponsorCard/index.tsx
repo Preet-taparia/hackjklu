@@ -7,7 +7,7 @@ interface SponsorCardProps {
   index: number;
   sponsor: string;
   category: string;
-  sponsorimgsrc: string;
+  sponsorimgsrc: StaticImageData;
   site: string;
 }
 
@@ -19,8 +19,22 @@ const SponsorCard: React.FC<SponsorCardProps> = ({ index, sponsor, category, spo
           <div className="w-full h-[161px] flex items-center justify-center p-10">
             <Image src={sponsorimgsrc} width={200} height={150} alt={sponsor} className="rounded-t-[20px]" />
           </div>
-          <div className="p-[22px] text-center bg-gray-800 rounded-b-[20px]">
-            <p className="text-xl font-white">{sponsor}</p>
+
+
+          <div
+            className="flex justify-between items-start p-[22px] rounded-b-[20px]"
+            style={{ backgroundColor: bgColor }}
+          >
+            <div className="flex flex-col w-full text-center">
+              <p className="sm:text-[28px] text-xl font-white">{sponsor}</p>
+              <p
+                className="sm:text-[18px] text-xl leading-9 font-bold"
+                style={{ color: textColor }}
+              >
+                {category}
+              </p>
+            </div>
+
           </div>
         </div>
       </a>

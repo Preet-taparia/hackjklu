@@ -59,7 +59,7 @@ const Speakers = () => {
             <div className="absolute bottom-0 left-0 w-full bg-black/70 p-4 text-white">
               <h3 className="text-lg font-bold">Ankur Warikoo</h3>
               <p>Content Creator</p>
-              <a href="https://www.linkedin.com/in/warikoo/" className="text-blue-400">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/warikoo/" className="text-blue-400" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
 
@@ -80,7 +80,7 @@ const Speakers = () => {
         {/* Right side - Speakers */}
         <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-8 gap-4">
           {/* Main speaker */}
-          <div className="md:col-span-8 rounded-lg overflow-hidden relative aspect-video">
+          <div className="md:col-span-8 rounded-lg overflow-hidden relative aspect-[4/3]">
             <Image
               src="/speakers/sandeep-jain.webp"
               alt="Sandeep Jain"
@@ -91,7 +91,7 @@ const Speakers = () => {
             <div className="absolute bottom-0 left-0 w-full bg-black/70 p-4 text-white">
               <h3 className="text-lg font-bold">Sandeep Jain</h3>
               <p>Founder & CEO at GeeksforGeeks</p>
-              <a href="https://www.linkedin.com/in/sandeep-jain-" className="text-blue-400">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/sandeep-jain-" className="text-blue-400" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
 
@@ -107,7 +107,7 @@ const Speakers = () => {
               <div className="absolute bottom-0 left-0 w-full bg-black/70 p-4 text-white">
                 <h3 className="text-lg font-bold">Bhagirath Giri</h3>
                 <p>Managing Director, WsCube Career School</p>
-                <a href="https://www.linkedin.com/in/bhagirath-giri/" className="text-blue-400">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/bhagirath-giri/" className="text-blue-400" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </div>
             </div>
 
@@ -120,8 +120,8 @@ const Speakers = () => {
               />
               <div className="absolute bottom-0 left-0 w-full bg-black/70 p-4 text-white">
                 <h3 className="text-lg font-bold">Jaskaran Singh</h3>
-                <p>SDE at Typeface</p>
-                <a href="https://www.linkedin.com/in/jaskaransingh/" className="text-blue-400">LinkedIn</a>
+                <p>ICPC World Finalist 2023 | SWE @Google</p>
+                <a href="https://www.linkedin.com/in/jaskaran-singh-8b8450200/" className="text-blue-400" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </div>
             </div>
           </div>

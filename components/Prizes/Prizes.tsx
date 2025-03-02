@@ -203,9 +203,9 @@ const Prize = () => {
               <p className="text-[#C3C3C3] text-[20px] font-normal text-center">
                 Social Media Winners consists of Linkedin, Instagram, Youtube Vlog
               </p>
-              <button className="text-[#C3C3C3] w-full max-w-[300px] p-3 rounded-lg border border-white text-[20px] font-normal text-center">
+              {/* <button className="text-[#C3C3C3] w-full max-w-[300px] p-3 rounded-lg border border-white text-[20px] font-normal text-center">
                 View Documentation
-              </button>
+              </button> */}
             </div>
           </div>
           <div
@@ -234,9 +234,9 @@ const Prize = () => {
               <p className="text-[#C3C3C3] text-[20px] font-normal text-center">
                 Make-a-thon is a competition for school students
               </p>
-              <button className="text-[#C3C3C3] w-full max-w-[300px] p-3 rounded-lg border border-white text-[20px] font-normal text-center">
+              {/* <button className="text-[#C3C3C3] w-full max-w-[300px] p-3 rounded-lg border border-white text-[20px] font-normal text-center">
                 View Rules
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

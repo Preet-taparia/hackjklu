@@ -1,46 +1,40 @@
 [
-  {
-      "name": "Vaibhav Chauhan",
-      "imageSrc": "VaibhavChauhan",
-       "title": "General Secretary",
-      "socials": {
-          "gb": "#",
-          "linkedin": "https://www.linkedin.com/in/vctech/",
-          "email": "mailto:vaibhavchauhan@jklu.edu.in"
-          
-          
-      }
-  },
-  {
-      "name": "Paras Goyal",
-      "imageSrc": "ParasGoyal",
-      "title": "\u200B",
-      
-      "socials": {
-          "gb": "https://github.com/paras-2407",
-          "linkedin": "https://www.linkedin.com/in/paras-goyal-a19249264/",
-          "email": "mailto:parasgoyal@jklu.edu.in"
-      }
-  },
-  {
-      "name": "Yash Puri Goswami",
-      "title": "\u200c",
-      "imageSrc":"YashGoswami",
-      "socials": {
-        
-        "linkedin": "https://www.linkedin.com/in/yashpuri045",
-        "email": "mailto:yashgoswami@jklu.edu.in"
-      }
-  },
-  {
-      "name": "Shubham Jain",
-      "imageSrc": "ShubhamJain",
-      "title": "Secretary",
-      "socials": {
-          "gb": "https://github.com/ShubhamJain-23",
-          "linkedin": "https://www.linkedin.com/in/shubham-jain2302/",
-          "email": "mailto:shubhamjain2023@jklu.edu.in"
-
-      }
-  }
+    {
+        "name": "Vaibhav Chauhan",
+        "imageSrc": "VaibhavChauhan",
+        "title": "General Secretary",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/vctech/",
+            "email": "mailto:vaibhavchauhan@jklu.edu.in"
+        }
+    },
+    {
+        "name": "Paras Goyal",
+        "imageSrc": "ParasGoyal",
+        "title": "\u200B",
+        "socials": {
+            "gb": "https://github.com/paras-2407",
+            "linkedin": "https://www.linkedin.com/in/paras-goyal-a19249264/",
+            "email": "mailto:parasgoyal@jklu.edu.in"
+        }
+    },
+    {
+        "name": "Yash Puri Goswami",
+        "title": "\u200c",
+        "imageSrc": "YashGoswami",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/yashpuri045",
+            "email": "mailto:yashgoswami@jklu.edu.in"
+        }
+    },
+    {
+        "name": "Shubham Jain",
+        "imageSrc": "ShubhamJain",
+        "title": "Secretary",
+        "socials": {
+            "gb": "https://github.com/ShubhamJain-23",
+            "linkedin": "https://www.linkedin.com/in/shubham-jain2302/",
+            "email": "mailto:shubhamjain2023@jklu.edu.in"
+        }
+    }
 ]
