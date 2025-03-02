@@ -134,21 +134,17 @@
 
 // export default Itenary;
 
-
-
-
 import React from "react";
 import Header from "../Header/Header";
 import YetToBeDisclosed from "../../components/YetToDisclose/Disclose"; 
 
-
 const Itenary = () => {
   return (
     <section id="itinerary" className='py:5 sm:pt-10 relative'>
-          <h2 className="text-center my-10">
-            <Header text="Itinerary" />
-          </h2>
-          <YetToBeDisclosed />
+      <h2 className="text-center my-10">
+        <Header text="Itinerary" />
+      </h2>
+      <YetToBeDisclosed />
     </section>
   );
 };

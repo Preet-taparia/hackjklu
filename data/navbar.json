@@ -20,8 +20,11 @@
     "link": "/events"
   },
   {
+    "name": "LIVE EVENT",
+    "link": "/live"
+  },
+  {
     "name": "TEAM",
     "link": "/team"
   }
-  
 ]

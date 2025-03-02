@@ -34,4 +34,4 @@ const HeaderSmall = ({ text }: HeaderProps) => {
   );
 }
 
-export default HeaderSmall
+export default HeaderSmall;
