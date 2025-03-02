@@ -29,7 +29,6 @@ const Speakers = () => {
     document.body.appendChild(script);
   }, []);
 
-
   return (
     <section
       className="px-5 md:pt-10 relative bg-black/50 md:pb-10"
@@ -45,9 +44,9 @@ const Speakers = () => {
         <Header text="Speakers" />
       </h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 md:h-full auto-rows-[auto,1fr]"> 
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 md:h-full auto-rows-[auto,1fr]">
         {/* Instagram Reel Section */}
-        <div className="lg:col-span-5 rounded-lg flex items-center justify-center relative h-[550px] sm:h-[600px] md:h-full">
+        <div className="lg:col-span-5 rounded-lg flex items-center justify-center relative h-[550px] sm:h-[600px] md:h-[600px] lg:h-full">
           <div className="relative w-full h-full">
             <Image
               src="/speakers/ankur-warikoo.webp"
@@ -59,7 +58,14 @@ const Speakers = () => {
             <div className="absolute bottom-0 left-0 w-full bg-black/70 p-4 text-white">
               <h3 className="text-lg font-bold">Ankur Warikoo</h3>
               <p>Content Creator</p>
-              <a href="https://www.linkedin.com/in/warikoo/" className="text-blue-400" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a
+                href="https://www.linkedin.com/in/warikoo/"
+                className="text-blue-400"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
             </div>
           </div>
 
@@ -91,7 +97,14 @@ const Speakers = () => {
             <div className="absolute bottom-0 left-0 w-full bg-black/70 p-4 text-white">
               <h3 className="text-lg font-bold">Sandeep Jain</h3>
               <p>Founder & CEO at GeeksforGeeks</p>
-              <a href="https://www.linkedin.com/in/sandeep-jain-" className="text-blue-400" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a
+                href="https://www.linkedin.com/in/sandeep-jain-"
+                className="text-blue-400"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
             </div>
           </div>
 
@@ -107,7 +120,14 @@ const Speakers = () => {
               <div className="absolute bottom-0 left-0 w-full bg-black/70 p-4 text-white">
                 <h3 className="text-lg font-bold">Bhagirath Giri</h3>
                 <p>Managing Director, WsCube Career School</p>
-                <a href="https://www.linkedin.com/in/bhagirath-giri/" className="text-blue-400" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a
+                  href="https://www.linkedin.com/in/bhagirath-giri/"
+                  className="text-blue-400"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
               </div>
             </div>
 
@@ -121,11 +141,17 @@ const Speakers = () => {
               <div className="absolute bottom-0 left-0 w-full bg-black/70 p-4 text-white">
                 <h3 className="text-lg font-bold">Jaskaran Singh</h3>
                 <p>ICPC World Finalist 2023 | SWE @Google</p>
-                <a href="https://www.linkedin.com/in/jaskaran-singh-8b8450200/" className="text-blue-400" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a
+                  href="https://www.linkedin.com/in/jaskaran-singh-8b8450200/"
+                  className="text-blue-400"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
