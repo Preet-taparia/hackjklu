@@ -250,10 +250,10 @@ const Speakers = () => {
       </h2>
 
       <div className="container mx-auto max-w-7xl">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8">
           {/* Instagram Reel Section - Flexible height container */}
-          <div className="lg:col-span-6 xl:col-span-5 rounded-lg overflow-hidden flex flex-col">
-            <div className="relative aspect-[9/16] w-full h-auto sm:max-h-[70vh] lg:max-h-none">
+          <div className="md:col-span-6 xl:col-span-5 rounded-lg overflow-hidden flex flex-col">
+            <div className="relative aspect-[9/16] w-full h-auto sm:max-h-[80vh] md:max-h-none">
               {/* Base image that shows before reel loads */}
               <div className="absolute inset-0">
                 <Image
@@ -306,10 +306,10 @@ const Speakers = () => {
           </div>
 
           {/* Speaker Cards Section - Vertically stacked on all screen sizes */}
-          <div className="lg:col-span-6 xl:col-span-7 flex flex-col gap-6 lg:gap-8">
+          <div className="md:col-span-6 xl:col-span-7 flex flex-col gap-6 lg:gap-8">
             {/* Speaker Card 1 */}
             <div className="rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-[1.02] bg-black/20 backdrop-blur-sm">
-              <div className="relative aspect-[16/9] sm:aspect-[3/2] md:aspect-[16/9] lg:aspect-[16/9]">
+              <div className="relative aspect-[3/2] ">
                 <Image
                   src="/speakers/bhagirath-giri.webp"
                   alt="Bhagirath Giri"
@@ -336,12 +336,12 @@ const Speakers = () => {
 
             {/* Speaker Card 2 */}
             <div className="rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-[1.02] bg-black/20 backdrop-blur-sm">
-              <div className="relative aspect-[16/9] sm:aspect-[3/2] md:aspect-[16/9] lg:aspect-[16/9]">
+              <div className="relative aspect-[3/2] ">
                 <Image
                   src="/speakers/jaskaransingh.webp"
                   alt="Jaskaran Singh"
                   fill
-                  className="object-cover object-center"
+                  className="object-cover object-[50%_25%]"
                 />
               </div>
               <div className="p-4 text-white bg-gradient-to-b from-black/70 to-black/90">
