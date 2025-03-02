@@ -89,7 +89,7 @@ const Sponsors: React.FC = () => {
             name="Ention"
             image={ention}
             bgColor="#DDC72D"
-            link="http://ention.in/"
+            link="/partners/ention"
             description="Ention is a leading innovator in digital solutions, empowering businesses with cutting-edge technology and advanced automation tools to optimize operations and drive growth."
             roundedSide="right"
           />
