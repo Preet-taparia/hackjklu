@@ -216,16 +216,23 @@ const Footer: React.FC = () => {
                   transformOrigin: 'bottom center',
                 }}
               >
-                {["Rakshika Sharma", "Labish", "Yash"].map((name, index) => (
-                  <span
+                {[
+                  { name: "Rakshika Sharma", link: "https://github.com/Rakshika1" },
+                  { name: "Labish Bardiya", link: "https://github.com/labishbardiya" },
+                  { name: "Yash Mishra", link: "https://github.com/yashmish18" },
+                ].map((member, index) => (
+                  <a
                     key={index}
+                    href={member.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-neonGreen text-sm py-2 px-3 w-full text-center block hover:bg-[#222]"
                     style={{
                       textShadow: "0px 0px 5px rgba(57, 255, 20, 0.8)",
                     }}
                   >
-                    {name}
-                  </span>
+                    {member.name}
+                  </a>
                 ))}
               </div>
             </div>
