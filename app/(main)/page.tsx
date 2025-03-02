@@ -9,6 +9,7 @@ import WhoShouldApply from '@/components/WhoShouldApply/WhoShouldApply';
 import Speakers from '@/components/Speakers/Speakers';
 // import People from '@/components/PeopleSections/PeopleSections';
 import FAQ from '@/components/FAQ/FAQ';
+import TimerPage from '@/app/timer/page';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       {/* <People /> */}
       <GalleryHome />
       <FAQ />
+      <TimerPage /> {/* Add TimerPage component here */}
     </>
   );
 }
