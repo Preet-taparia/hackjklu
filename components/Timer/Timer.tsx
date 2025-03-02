@@ -1,18 +1,17 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { CardContainer, CardBody, CardItem } from '@/components/ui/3d-card';
+import { CardContainer, CardItem } from '@/components/ui/3d-card';
 import itineraryData from '@/data/itinerary.json';
 import Header from '../Header/Header';
+import { AnimatedListDemo } from '@/components/magicui/animated-list';
 
 export const Timer = () => {
-  const [time, setTime] = useState(0);
+  const [time, setTime] = useState(36 * 3600); // Reset clock to 36 hours
   const [isRunning, setIsRunning] = useState(false);
-  const [inputTime, setInputTime] = useState('');
   const [currentEvent, setCurrentEvent] = useState<{ event: string; time: string } | null>(null);
 
   useEffect(() => {
-    // Function to get current event and set timer
     const updateCurrentEvent = () => {
       const now = new Date();
       const events = [
@@ -21,7 +20,6 @@ export const Timer = () => {
         ...itineraryData.day3Events
       ];
 
-      // Find the next upcoming event
       const nextEvent = events.find(event => {
         const eventTime = new Date();
         const [hours, minutes] = event.time.split(':');
@@ -33,7 +31,6 @@ export const Timer = () => {
 
       if (nextEvent) {
         setCurrentEvent(nextEvent);
-        // Calculate time difference in seconds
         const eventTime = new Date();
         const [hours, minutes] = nextEvent.time.split(':');
         const period = nextEvent.time.includes('PM') ? 12 : 0;
@@ -45,7 +42,6 @@ export const Timer = () => {
       }
     };
 
-    // Update initially and every minute
     updateCurrentEvent();
     const interval = setInterval(updateCurrentEvent, 60000);
 
@@ -60,7 +56,7 @@ export const Timer = () => {
         setTime((prevTime) => {
           if (prevTime <= 1) {
             setIsRunning(false);
-            return 0;
+            return 36 * 3600; // Reset to 36 hours
           }
           return prevTime - 1;
         });
@@ -74,50 +70,16 @@ export const Timer = () => {
     };
   }, [isRunning, time]);
 
-  const formatTime = (seconds: number) => {
-    const hours = Math.floor(seconds / 3600);
-    const minutes = Math.floor((seconds % 3600) / 60);
-    const remainingSeconds = seconds % 60;
-
-    return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
-  };
-
-  const handleStart = () => {
-    if (!isRunning && time > 0) {
-      setIsRunning(true);
+  useEffect(() => {
+    if (time === 0 && currentEvent) {
+      const audio = new Audio('/notification-sound.mp3');
+      audio.play();
     }
-  };
-
-  const handlePause = () => {
-    setIsRunning(false);
-  };
-
-  const handleReset = () => {
-    setIsRunning(false);
-    setTime(0);
-    setInputTime('');
-  };
-
-  const handleSetTime = () => {
-    const minutes = parseInt(inputTime);
-    if (!isNaN(minutes) && minutes > 0) {
-      setTime(minutes * 60);
-      setInputTime('');
-    }
-  };
+  }, [time, currentEvent]);
 
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="w-full flex flex-col items-center justify-center mb-12">
-        <div className="w-full flex flex-col items-center justify-center">
-          <h1 className="text-4xl text-white press-start-2p" style={{ textShadow: '0 0 5px #fff, 0 0 15px #00ff00' }}>
-            Next Event In
-          </h1>
-        </div>
-      </div>
       <div className="w-full max-w-5xl px-4">
-        
-          
         <CardContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <CardItem className="bg-transparent p-8 flex flex-col items-center justify-center border border-white/40 rounded-xl shadow-lg transform transition-transform hover:scale-105">
             <div className="text-8xl text-white mb-4 press-start-2p" style={{ textShadow: '0 0 5px #fff, 0 0 15px #00ff00' }}>
@@ -139,6 +101,10 @@ export const Timer = () => {
           </CardItem>
         </CardContainer>
       </div>
+      <div className="w-full mt-8 text-center">
+        <Header text="Upcoming Events" />
+        <AnimatedListDemo className="mt-4" />
+      </div>
     </div>
   );
-}; 
+};
