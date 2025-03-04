@@ -20,9 +20,9 @@
   "day3Events": [
     { "time": "4:00 AM", "event": "Submission Time", "tags": ["mandatory"] },
     { "time": "6:30 AM", "event": "Zumba", "tags": ["fun"] },
-    { "time": "8:00 PM", "event": "Judging Round 3", "tags": ["mandatory"] },
-    { "time": "10:00 AM", "event": "Top 10 Announcement", "tags": ["mandatory"] },
-    { "time": "11:00 AM", "event": "Jury Presentation for Top 10", "tags": ["mandatory"] },
-    { "time": "02:00 PM", "event": "Valedictory Ceremony", "tags": ["mandatory"] }
+    { "time": "9:00 PM", "event": "Judging Round 3", "tags": ["mandatory"] },
+    { "time": "10:30 AM", "event": "Top 5 Announcement", "tags": ["mandatory"] },
+    { "time": "11:00 AM", "event": "Jury Presentation for Top 5", "tags": ["mandatory"] },
+    { "time": "01:30 PM", "event": "Valedictory Ceremony", "tags": ["mandatory"] }
   ]
 }
