@@ -113,7 +113,7 @@ const Sponsors: React.FC = () => {
 
       {/* All Sponsors */}
       <div className="p-10 text-center">
-        <div className="w-full grid grid-cols-1 mt-8 md:grid-cols-2 xl:grid-cols-3 gap-8 lg:gap-[44px] md:px-8 lg:px-10">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 lg:gap-[44px] md:px-8 lg:px-10">
           {mappedSponsors.map((sponsor) => (
             <SponsorCard key={sponsor.index} {...sponsor} />
           ))}
