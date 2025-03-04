@@ -1,25 +1,30 @@
 {
   "day1Events": [
-    { "time": "12:00 PM", "event": "Check-in", "tags": ["mandatory", "food"] },
-    { "time": "02:00 PM", "event": "Opening Ceremony", "tags": ["mandatory"] },
-    { "time": "03:00 PM", "event": "Workshop by JDW", "tags": ["workshop"] },
-    { "time": "06:00 PM", "event": "Hackathon Starts", "tags": ["mandatory"] }
+    { "time": "10:00 AM", "event": "Registration Start", "tags": ["mandatory"] },
+    { "time": "12:00 PM", "event": "Registration End", "tags": ["mandatory"] },
+    { "time": "02:00 PM", "event": "MyFM Start", "tags": ["fun"] },
+    { "time": "03:00 PM", "event": "Inauguration Ceremony", "tags": ["mandatory"] },
+    { "time": "03:45 PM", "event": "Hackathon Starts", "tags": ["mandatory"] },
+    { "time": "05:45 PM", "event": "High Tea", "tags": ["food"] },
+    { "time": "06:30 PM", "event": "Ankur Warikoo Session", "tags": ["workshop"] },
+    { "time": "08:00 PM", "event": "Dinner", "tags": ["food"] },
+    { "time": "09:00 PM", "event": "Mentoring Round 1", "tags": ["mentoring"] }
   ],
   "day2Events": [
-    { "time": "09:00 AM", "event": "Session by Prof. Iyenger", "tags": ["workshop"] },
-    { "time": "10:00 AM", "event": "Mentoring Round", "tags": ["all"] },
-    { "time": "01:00 PM", "event": "Coding Ninjas Event", "tags": ["fun"] },
-    { "time": "03:00 PM", "event": "Improv by Nakab", "tags": ["fun"] },
-    { "time": "04:00 PM", "event": "Session by Pranav M.", "tags": ["workshop"] },
-    { "time": "05:00 PM", "event": "Evening Snacks", "tags": ["food"] },
-    { "time": "06:00 PM", "event": "Workshop by GFG", "tags": ["workshop"] },
-    { "time": "09:00 PM", "event": "Music Night by Anunaad", "tags": ["fun"] }
+    { "time": "09:00 AM", "event": "Jaskaran Singh Session", "tags": ["workshop"] },
+    { "time": "01:00 PM", "event": "Judging Round 1", "tags": ["mandatory"] },
+    { "time": "02:00 PM", "event": "Bhagirath Sir Session", "tags": ["workshop"] },
+    { "time": "05:00 PM", "event": "GFG Coding Challenge", "tags": ["competition"] },
+    { "time": "10:00 PM", "event": "Judging Round 2", "tags": ["mandatory"] },
+    { "time": "11:00 PM", "event": "Jamming", "tags": ["fun"] },
+    { "time": "12:00 AM", "event": "Top 10 Announcement", "tags": ["mandatory"] },
+    { "time": "02:00 AM", "event": "Refreshments", "tags": ["food"] }
   ],
   "day3Events": [
-    { "time": "06:00 AM", "event": "Submission Time", "tags": ["mandatory"] },
-    { "time": "09:00 AM", "event": "Evaluation Round 1", "tags": ["mandatory"] },
-    { "time": "01:00 PM", "event": "Evaluation Round 2", "tags": ["mandatory"] },
-    { "time": "03:00 PM", "event": "Closing Ceremony", "tags": ["mandatory"] },
-    { "time": "07:00 PM", "event": "DJ night by JDW", "tags": ["fun"] }
+    { "time": "05:00 AM", "event": "Submission Time", "tags": ["mandatory"] },
+    { "time": "06:00 AM", "event": "Presentation Submission", "tags": ["mandatory"] },
+    { "time": "10:00 AM", "event": "Jury Presentation for Top 10", "tags": ["mandatory"] },
+    { "time": "01:00 PM", "event": "Sandeep Sir Session", "tags": ["workshop"] },
+    { "time": "02:00 PM", "event": "Valedictory Ceremony", "tags": ["mandatory"] }
   ]
 }

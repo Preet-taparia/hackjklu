@@ -3,7 +3,8 @@ import About from '@/components/About/About';
 import Theme from '@/components/Theme/Theme';
 import RetroPrizesSection from '@/components/Prizes/Prizes';
 import Sponsors from '@/components/Sponsors/Sponsors';
-import Itenary from '@/components/Itenary/Itenary';
+import Itinary from '@/components/Itenary/Itenary';
+import Itenary  from '@/components/Itenary/Itenary1';
 import GalleryHome from '@/components/Gallery/GalleryHome';
 import WhoShouldApply from '@/components/WhoShouldApply/WhoShouldApply';
 import Speakers from '@/components/Speakers/Speakers';
@@ -20,6 +21,7 @@ export default function Home() {
       <Sponsors />
       <WhoShouldApply />
       <Itenary />
+      <Itinary />
       <Speakers />
       {/* <People /> */}
       <GalleryHome />
