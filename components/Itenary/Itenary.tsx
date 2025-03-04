@@ -138,7 +138,7 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaClock, FaFilter } from "react-icons/fa";
+import { FaClock } from "react-icons/fa";
 import Header from "../Header/Header";
 import itineraryData from "../../data/itinerary.json";
 
@@ -176,7 +176,6 @@ const tagColorMap = {
 const Itinerary = () => {
   const { day1Events, day2Events, day3Events } = itineraryData as ItineraryData;
   const [activeFilter, setActiveFilter] = useState("all");
-  const [activeDay, setActiveDay] = useState(1);
   const [dayFilters, setDayFilters] = useState({
     day1: "all",
     day2: "all",
