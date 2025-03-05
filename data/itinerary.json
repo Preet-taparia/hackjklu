@@ -22,7 +22,8 @@
     { "time": "06:30 AM", "event": "Meditation", "tags": ["fun"] },
     { "time": "09:00 AM", "event": "Judging Round 3", "tags": ["mandatory"] },
     { "time": "10:30 AM", "event": "Top 5 Announcement", "tags": ["mandatory"] },
-    { "time": "11:00 AM", "event": "Jury Presentation for Top 5", "tags": ["mandatory"] },
+    { "time": "11:00 AM", "event": "Jury Presentation", "tags": ["mandatory"] },
+    { "time": "01:00 PM", "event": "Session by Sandeep Jain", "tags": ["session"] },
     { "time": "02:00 PM", "event": "Valedictory Ceremony", "tags": ["mandatory"] }
   ]
 }
