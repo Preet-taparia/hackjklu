@@ -92,11 +92,12 @@ const Hero = () => {
               <span style={{ color: "#1f54fb" }}>Hack</span>
               <span style={{ color: "#0bfb00" }}>JKLU</span> v4.0
             </CardItem>
-            <CardItem translateZ="50" className={`text-xl sm:text-2xl text-center font-bold text-white flex items-center justify-center gap-1 ${press_start_2p.className}`}>
-              Co-powered by 
-              <span className="inline-block">
-                <img src="/entionName.webp" width={200} className="inline mb-4" />
-              </span>
+            <CardItem
+              translateZ="50"
+              className={`text-base sm:text-2xl font-bold text-white flex items-center justify-center gap-2 ${press_start_2p.className}`}
+            >
+              <span>Co-powered by</span>
+              <img src="/entionName.webp" width={200} className="inline-block w-[100px] sm:w-[200px] mb-2 sm:mb-4" />
             </CardItem>
             <CardItem translateZ="60" className="text-2xl sm:text-3xl text-center font-bold text-white">
               7 - 9 March 2025
