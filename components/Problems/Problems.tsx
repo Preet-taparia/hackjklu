@@ -56,7 +56,7 @@ const Problems = () => {
   });
 
   return (
-    <div className="my-[1rem] min-h-screen text-white md:my-[3rem]">
+    <div className="mb-[1rem] min-h-screen text-white md:my-[3rem]">
       <div className="mx-auto max-w-screen-xl px-4">
         <div className="mb-4 flex flex-col justify-center  md:flex-row md:items-center">
           <div className="relative">

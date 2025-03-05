@@ -3,9 +3,9 @@ import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
   try {
-    const { name, email, phone, designation, organization, theme, problem, description } = await req.json();
+    const { teamName, teamLeader, collegeName, teamNumber, problemNumber, category } = await req.json();
 
-    if (!name || !email || !phone || !designation || !organization || !theme || !problem || !description) {
+    if (!teamName || !teamLeader || !collegeName || !teamNumber || !problemNumber || !category) {
       return NextResponse.json({ message: "All fields are required" }, { status: 400 });
     }
 
@@ -25,7 +25,7 @@ export async function POST(req: Request) {
     await auth.authorize();
 
     const sheetId = process.env.GOOGLE_SHEET_ID;
-    const range = "Sheet1!A1:H1";
+    const range = "Teams!A1:F1";
 
     await google.sheets("v4").spreadsheets.values.append({
       auth,
@@ -34,15 +34,15 @@ export async function POST(req: Request) {
       valueInputOption: "RAW",
       requestBody: {
         values: [
-          [name, email, phone, designation, organization, theme, problem, description],
+          [teamName, teamLeader, collegeName, teamNumber, problemNumber, category],
         ],
       },
     });
 
-    return NextResponse.json({ message: "Form data successfully submitted!" }, { status: 200 });
+    return NextResponse.json({ message: "Team data successfully submitted!" }, { status: 200 });
 
   } catch (error: any) {
-    console.error("Error submitting form data:", error);
+    console.error("Error submitting team data:", error);
 
     return NextResponse.json(
       { message: "Internal server error", error: error.message || error.toString() },

@@ -198,10 +198,13 @@ const Prize = () => {
                 Social Media Winners
               </p>
               <p className="text-[#C3C3C3] text-[20px] font-normal text-center">
-                ₹ 15,000.00
+                ₹ 5,000.00
               </p>
               <p className="text-[#C3C3C3] text-[20px] font-normal text-center">
                 Social Media Winners consists of Linkedin, Instagram, Youtube Vlog
+              </p>
+              <p className="text-[#C3C3C3] text-[14px] font-normal text-center">
+                *Event will happen in the duration of hackathon (7 - 9 March 2025)
               </p>
               {/* <a
                 href="/prizesPage/Documentation%20for%20Make-a-thon%20-%20HackJKLU%20v4.0.pdf"
