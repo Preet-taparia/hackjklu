@@ -1,20 +1,30 @@
 [
     {
-        "name": "Rachit Sharma",
-        "title": "Promotion",
-        "imageSrc": "RachitSharma",
+        "name": "Preet Taparia",
+        "title": "Tech and Support",
+        "imageSrc": "PreetTaparia",
         "socials": {
-            "gb": "https://github.com/Rachit-Sharma0410",
-            "linkedin": "https://www.linkedin.com/in/rachit-sharma-56770b290",
-            "email": "mailto:RACHITSHARMA@jklu.edu.in"
+            "gb": "https://github.com/Preet-taparia",
+            "linkedin": "https://www.linkedin.com/in/preet-taparia/",
+            "email": "mailto:preettaparia@jlku.edu.in"
         }
     },
     {
-        "name": "Saurav Kumar Yadav",
-        "title": "Discipline",
-        "imageSrc": "SauravKumarYadav",
+        "name": "Shivam Sharma",
+        "title": "Internal Arrangements",
+        "imageSrc": "ShivamSharma",
         "socials": {
-            "email": "mailto:saurav@jklu.edu.in"
+            "linkedin": "https://www.linkedin.com/in/shivam-sharma-8a7618259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "email": "mailto:shivamsharma2022@jklu.edu.in"
+        }
+    },
+    {
+        "name": "Vandan P Shah",
+        "title": "Social Media",
+        "imageSrc": "VANDANSHAH",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/vandan-shah-71b6352b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "email": "mailto:Vandanshah@jklu.edu.in"
         }
     },
     {
@@ -28,6 +38,14 @@
         }
     },
     {
+        "name": "Saurav Kumar Yadav",
+        "title": "Discipline",
+        "imageSrc": "SauravKumarYadav",
+        "socials": {
+            "email": "mailto:saurav@jklu.edu.in"
+        }
+    },
+    {
         "name": "Karan Kumawat",
         "title": "Registration",
         "imageSrc": "KaranKumar",
@@ -37,22 +55,11 @@
         }
     },
     {
-        "name": "Vandan P Shah",
-        "title": "Social Media",
-        "imageSrc": "VANDANSHAH",
+        "name": "Rahul Verma",
+        "title": "Registration",
+        "imageSrc": "RahulVerma",
         "socials": {
-            "linkedin": "https://www.linkedin.com/in/vandan-shah-71b6352b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-            "email": "mailto:Vandanshah@jklu.edu.in"
-        }
-    },
-    {
-        "name": "Preet Taparia",
-        "title": "Tech and Support",
-        "imageSrc": "PreetTaparia",
-        "socials": {
-            "gb": "https://github.com/Preet-taparia",
-            "linkedin": "https://www.linkedin.com/in/preet-taparia/",
-            "email": "mailto:preettaparia@jlku.edu.in"
+            "linkedin": "https://www.linkedin.com/in/rahul-verma14/"
         }
     },
     {
@@ -101,29 +108,22 @@
         }
     },
     {
-        "name": "Rahul Verma",
-        "title": "Registration",
-        "imageSrc": "RahulVerma",
-        "socials": {
-            "linkedin": "https://www.linkedin.com/in/rahul-verma14/"
-        }
-    },
-    {
-        "name": "Shivam Sharma",
-        "title": "Internal Arrangements",
-        "imageSrc": "ShivamSharma",
-        "socials": {
-            "linkedin": "https://www.linkedin.com/in/shivam-sharma-8a7618259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            "email": "mailto:shivamsharma2022@jklu.edu.in"
-        }
-    },
-    {
         "name": "Kavisha Gupta",
         "title": "Decoration",
         "imageSrc": "KavishaGupta",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/kavishagupta20/",
             "email": ""
+        }
+    },
+    {
+        "name": "Rachit Sharma",
+        "title": "Promotion",
+        "imageSrc": "RachitSharma",
+        "socials": {
+            "gb": "https://github.com/Rachit-Sharma0410",
+            "linkedin": "https://www.linkedin.com/in/rachit-sharma-56770b290",
+            "email": "mailto:RACHITSHARMA@jklu.edu.in"
         }
     },
     {

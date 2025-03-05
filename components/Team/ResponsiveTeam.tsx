@@ -89,20 +89,9 @@ export default function ResponsiveTeam({ teamData }: Props) {
     return (
         <>
             <div className={styles.cardContainer}>
-                {teamData.slice(0, -2).map((item, index) => (
+                {teamData.map((item, index) => (
                     <TeamCard
                         key={`${index}-team`}
-                        name={item.name}
-                        title={item.title}
-                        imageSrc={`/team/${item.imageSrc}.webp`}
-                        socials={item.socials}
-                    />
-                ))}
-            </div>
-            <div className={styles.centeredContainer}>
-                {teamData.slice(-2).map((item, index) => (
-                    <TeamCard
-                        key={`${index + teamData.length - 2}-team`}
                         name={item.name}
                         title={item.title}
                         imageSrc={`/team/${item.imageSrc}.webp`}
