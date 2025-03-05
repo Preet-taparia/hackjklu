@@ -7,8 +7,6 @@
             "gb": "https://github.com/Rachit-Sharma0410",
             "linkedin": "https://www.linkedin.com/in/rachit-sharma-56770b290",
             "email": "mailto:RACHITSHARMA@jklu.edu.in"
-            
-            
         }
     },
     {
@@ -16,10 +14,7 @@
         "title": "Discipline",
         "imageSrc": "SauravKumarYadav",
         "socials": {
-            
             "email": "mailto:saurav@jklu.edu.in"
-            
-           
         }
     },
     {
@@ -28,7 +23,6 @@
         "role": "UI/UX",
         "imageSrc": "AnirudhSaini",
         "socials": {
-           
             "email": "mailto:ANIRUDHSAINI@jklu.edu.in",
             "linkedin": "https://www.linkedin.com/in/anirudh-saini-7a3450345/"
         }
@@ -38,10 +32,8 @@
         "title": "Registration",
         "imageSrc": "KaranKumar",
         "socials": {
-           
             "linkedin": "https://www.linkedin.com/in/karan-kumawat-26770b24a",
             "email": "mailto:karankumar@jklu.edu.in"
-            
         }
     },
     {
@@ -50,7 +42,7 @@
         "imageSrc": "VANDANSHAH",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/vandan-shah-71b6352b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-            "email":"mailto:Vandanshah@jklu.edu.in"
+            "email": "mailto:Vandanshah@jklu.edu.in"
         }
     },
     {
@@ -61,8 +53,6 @@
             "gb": "https://github.com/Preet-taparia",
             "linkedin": "https://www.linkedin.com/in/preet-taparia/",
             "email": "mailto:preettaparia@jlku.edu.in"
-        
-
         }
     },
     {
@@ -70,10 +60,8 @@
         "title": "Food and Accomodation",
         "imageSrc": "AkashSaraswat",
         "socials": {
-            
             "linkedin": "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAEWzT_UBVyX_vxEcGXhZ3d3ImfVaSd4KYw8&keywords=akash%20saraswat&origin=RICH_QUERY_SUGGESTION&position=0&searchId=4503f735-f2c3-426a-8233-bf1a517c46a7&sid=)x6&spellCorrectionEnabled=false",
             "email": "mailto:akash@jklu.edu.inm"
-            
         }
     },
     {
@@ -81,21 +69,18 @@
         "title": "Food and Accomodation",
         "imageSrc": "AayudhiMeel",
         "socials": {
-            
             "linkedin": "https://www.linkedin.com/in/aayushi-meel-01505a2b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             "email": "mailto:aayushimeel1@gmail.com"
         }
     },
     {
-    "name": "Rani Ingle",
-    "title": "Media and Report",
-    "imageSrc": "RaniIngle",
-    "socials": {
-
-        "email": "mailto:raniingle@jklu.edu.in"
+        "name": "Rani Ingle",
+        "title": "Media and Report",
+        "imageSrc": "RaniIngle",
+        "socials": {
+            "email": "mailto:raniingle@jklu.edu.in"
         }
     },
-    
     {
         "name": "Niharika Gupta",
         "title": "Hospitality",
@@ -106,52 +91,48 @@
             "email": "mailto:niharikagupta@jklu.edu.in"
         }
     },
-
     {
         "name": "Shrashti Chouhan",
         "title": "Prize and Certificate",
         "imageSrc": "ShrashtiChouhan",
         "socials": {
-            
             "linkedin": "https://www.linkedin.com/in/shrashti-chouhan-27553b251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             "email": "mailto:shrashtichouhan@jklu.edu.in"
         }
     },
-
+    {
+        "name": "Rahul Verma",
+        "title": "Registration",
+        "imageSrc": "RahulVerma",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/rahul-verma14/"
+        }
+    },
     {
         "name": "Shivam Sharma",
         "title": "Internal Arrangements",
         "imageSrc": "ShivamSharma",
         "socials": {
-           
             "linkedin": "https://www.linkedin.com/in/shivam-sharma-8a7618259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             "email": "mailto:shivamsharma2022@jklu.edu.in"
         }
     },
-
     {
         "name": "Kavisha Gupta",
         "title": "Decoration",
         "imageSrc": "KavishaGupta",
         "socials": {
-           
             "linkedin": "https://www.linkedin.com/in/kavishagupta20/",
             "email": ""
         }
-    
     },
-
     {
-        "name":"Tamanna Chandnani",
-        "title":"Design",
+        "name": "Tamanna Chandnani",
+        "title": "Design",
         "imageSrc": "TamannaChandnani",
-        "socials":{
+        "socials": {
             "linkedin": "https://www.linkedin.com/in/tamanna-chandnani-0b4232236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             "email": "tamannachandnani@jklu.edu.in"
         }
     }
-
-
-
-
-] 
+]

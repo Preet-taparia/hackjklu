@@ -41,12 +41,21 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ message: "Team data successfully submitted!" }, { status: 200 });
 
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Error submitting team data:", error);
-
+  
+    let errorMessage = "Unknown error";
+  
+    if (error instanceof Error) {
+      errorMessage = error.message;
+    } else if (typeof error === "string") {
+      errorMessage = error;
+    }
+  
     return NextResponse.json(
-      { message: "Internal server error", error: error.message || error.toString() },
+      { message: "Internal server error", error: errorMessage },
       { status: 500 }
     );
   }
+  
 }
