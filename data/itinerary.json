@@ -1,10 +1,10 @@
 {
   "day1Events": [
     { "time": "10:00 AM", "event": "Check-in Start", "tags": ["mandatory"] },
-    { "time": "11:30 PM", "event": "Check-in End", "tags": ["mandatory"] },
+    { "time": "11:30 AM", "event": "Check-in End", "tags": ["mandatory"] },
     { "time": "01:00 PM", "event": "MyFM Start", "tags": ["fun"] },
     { "time": "03:15 PM", "event": "Inauguration Ceremony", "tags": ["mandatory"] },
-    { "time": "04:00 PM", "event": "Hackathon Starts", "tags": ["mandatory"] },
+    { "time": "04:15 PM", "event": "Hackathon Starts", "tags": ["mandatory"] },
     { "time": "06:30 PM", "event": "Session by Ankur Warikoo", "tags": ["session"] },
     { "time": "09:00 PM", "event": "Mentoring Round 1", "tags": ["mentoring"] }
   ],

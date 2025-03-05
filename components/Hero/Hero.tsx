@@ -22,7 +22,7 @@ const CountdownTimer = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date("2025-03-07T11:00:00").getTime();
+    const targetDate = new Date("2025-03-07T10:00:00").getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();
@@ -92,11 +92,11 @@ const Hero = () => {
               <span style={{ color: "#1f54fb" }}>Hack</span>
               <span style={{ color: "#0bfb00" }}>JKLU</span> v4.0
             </CardItem>
-            <CardItem translateZ="50" className={`text-xl sm:text-3xl text-center font-bold text-white flex items-center justify-center gap-1 ${press_start_2p.className}`}>
-              Co-powered By ENTION
-              {/* <span className="inline-block">
-                <img src="/sponsors/ention.webp" width={100} className="inline" />
-              </span> */}
+            <CardItem translateZ="50" className={`text-xl sm:text-2xl text-center font-bold text-white flex items-center justify-center gap-1 ${press_start_2p.className}`}>
+              Co-powered by 
+              <span className="inline-block">
+                <img src="/entionName.webp" width={200} className="inline mb-4" />
+              </span>
             </CardItem>
             <CardItem translateZ="60" className="text-2xl sm:text-3xl text-center font-bold text-white">
               7 - 9 March 2025

@@ -25,11 +25,6 @@
         "bgImage": "/events/5.webp"
     },
     {
-        "title": "RoboMaze",
-        "description": "Robo Maze is a thrilling robotics challenge where participants navigate their RC robots through a complex maze filled with sharp turns and obstacles. Precision, agility, and quick decision-making are crucial as teams race to conquer the maze and cross the finish line in the shortest time to claim victory.",
-        "bgImage": "/events/11.webp"
-    },
-    {
         "title": "The Escape Room",
         "description": "Two teams race through a series of puzzle rooms, each solving challenges to unlock the next clue. The final destination? A single Escape Room, but only one team can enter first, earning a 15-second advantage. The team with the fastest total time and the fewest mistakes among all the teams wins the Game.",
         "bgImage": "/events/6.webp"

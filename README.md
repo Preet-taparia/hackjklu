@@ -15,3 +15,23 @@ discord community
 
 
 YOUTUBE API KEY
+
+---------
+
+
+excel 
+
+name of borrower, what is borrowed, when it is borrowed, borrowed return time, venue
+
+-----------
+
+walkie
+
+discipline walkies bhot thodta hai
+
+registeration ka prize and certificate
+
+mic 
+
+laptop hona chhaiye
+
