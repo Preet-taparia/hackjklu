@@ -2,10 +2,12 @@
 
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
+import Header from "@/components/Header/Header";
+
 
 interface FormData {
   teamName: string;
-  teamLeaderName: string;
+  teamLeader: string;
   collegeName: string;
   teamNumber: string;
   problemNumber: string;
@@ -14,7 +16,7 @@ interface FormData {
 
 interface FormErrors {
   teamName?: string;
-  teamLeaderName?: string;
+  teamLeader?: string;
   collegeName?: string;
   teamNumber?: string;
   problemNumber?: string;
@@ -34,7 +36,7 @@ const LabelInputContainer = ({
 export default function SubmitPage() {
   const [formData, setFormData] = useState<FormData>({
     teamName: "",
-    teamLeaderName: "",
+    teamLeader: "",
     collegeName: "",
     teamNumber: "",
     problemNumber: "",
@@ -90,7 +92,7 @@ export default function SubmitPage() {
     );
 
     try {
-      const response = await fetch("/api/submit-team-form", {
+      const response = await fetch("/api/submit-team", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -113,13 +115,16 @@ export default function SubmitPage() {
   return (
     <section className="min-h-screen flex items-center justify-center relative">
       <div className="mx-auto rounded-lg p-6 shadow-lg flex flex-col gap-6">
+      <h2 className="text-center mb-5">
+          <Header text="Team Form" />
+        </h2>
         <form
           className="grid grid-cols-1 md:grid-cols-2 gap-4"
           onSubmit={handleSubmit}
         >
           {[
             { id: "teamName", placeholder: "Team Name" },
-            { id: "teamLeaderName", placeholder: "Team Leader Name" },
+            { id: "teamLeader", placeholder: "Team Leader Name" },
             { id: "collegeName", placeholder: "College Name" },
             { id: "teamNumber", placeholder: "Team Number" },
             { id: "problemNumber", placeholder: "Problem Number" },
@@ -138,27 +143,45 @@ export default function SubmitPage() {
           ))}
 
 <LabelInputContainer>
-            <select
-              id="designation"
-              value={formData.category  }
-              onChange={handleChange}
-              className="border-2 border-[#1f54fb] focus:border-transparent focus:ring-4 focus:ring-gradient-focus focus:outline-none bg-transparent px-4 py-2 text-lg text-white shadow-md rounded-md w-full"
-              required
-            >
-              <option value="" disabled className="text-black bg-white">
-                Select Designation
-              </option>
-              <option value="student" className="text-black bg-white">
-                Student
-              </option>
-              <option value="software-engineer" className="text-black bg-white">
-                Software Engineer
-              </option>
-              <option value="other" className="text-black bg-white">
-                Other
-              </option>
-            </select>
-          </LabelInputContainer>
+  <select
+    id="category"
+    value={formData.category}
+    onChange={handleChange}
+    className="border-2 border-[#1f54fb] focus:border-transparent focus:ring-4 focus:ring-gradient-focus focus:outline-none bg-transparent px-4 py-[14px] text-lg text-white shadow-md rounded-md w-full h-[54px]"
+    required
+  >
+    <option value="" disabled className="text-black bg-white">
+      Select Category
+    </option>
+    <option value="Sustainability & Environment" className="text-black bg-white">
+      Sustainability & Environment
+    </option>
+    <option value="Healthcare & Well-being" className="text-black bg-white">
+      Healthcare & Well-being
+    </option>
+    <option value="Technology & Innovation" className="text-black bg-white">
+      Technology & Innovation
+    </option>
+    <option value="Education & Social Innovation" className="text-black bg-white">
+      Education & Social Innovation
+    </option>
+    <option value="Finance & Business Solutions" className="text-black bg-white">
+      Finance & Business Solutions
+    </option>
+    <option value="Entertainment, Media & Culture" className="text-black bg-white">
+      Entertainment, Media & Culture
+    </option>
+    <option value="Open Innovation" className="text-black bg-white">
+      Open Innovation
+    </option>
+  </select>
+  {errors.category && (
+    <span className="text-red-500 text-sm">
+      {errors.category}
+    </span>
+  )}
+</LabelInputContainer>
+
 
           <div className="md:col-span-2 mt-2">
             <button
