@@ -42,9 +42,10 @@
     "id": "A7",
     "title": "Develop a comprehensive framework for startup growth metrics tailored to the needs of incubators.",
     "description": "Capture essential startup growth stages: Go beyond basic metrics and track progress across key areas like customer acquisition, market validation, product development, team growth, and traction milestones. Be customizable: Accommodate diverse startup models and industries within the incubator's portfolio. Integrate with existing data sources: Leverage existing incubator data (e.g., mentor reports, funding records, event participation) alongside external data sources (e.g., web analytics, social media engagement). Provide actionable insights: Enable incubators to identify strengths, weaknesses, and specific areas where they can support startups most effectively. Facilitate data-driven decision-making: Allow incubators to optimize their programs and resources based on tangible results and trends. Bonus points: Design interactive dashboards for visualizing startup growth and incubator performance. Develop predictive models to forecast future success potential of startups. Integrate your solution with existing incubator management platforms. By tackling this challenge, you can revolutionize the way incubators track and support their startups, ultimately increasing their success rate and contributing to a thriving entrepreneurial ecosystem.",
-    "track": ["AI/ML", "Web 2", "Web 3"],
+    "track": ["AI/ML", "IoT"],
     "contributor": "AIC-JKLU",
-    "sponsored": "true"
+    "sponsored": "true",
+    "price": "200"
   },
   {
     "id": "C1",

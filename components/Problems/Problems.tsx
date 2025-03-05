@@ -3,14 +3,14 @@
 import React, { useState } from "react";
 import challengesData from "../../data/challenges.json";
 
-// import styles from './Problems.module.css';
-
 interface Challenge {
   id: string;
   title: string;
   track: string[];
   description: string;
   sponsored?: string;
+  contributor?: string;
+  prize? : string;
 }
 
 
@@ -56,7 +56,7 @@ const Problems = () => {
   });
 
   return (
-    <div className="mb-[1rem] min-h-screen text-white md:my-[3rem]">
+    <div className="mb-[1rem] min-h-screen text-white my-[3rem]">
       <div className="mx-auto max-w-screen-xl px-4">
         <div className="mb-4 flex flex-col justify-center  md:flex-row md:items-center">
           <div className="relative">
@@ -119,11 +119,20 @@ const Problems = () => {
               <span className="text-shadow: 1px 3px 6px rgba(93, 213, 240, 0.4) text-[2.5rem] font-normal not-italic leading-[normal] tracking-[-0.54rem] text-[#ECECEC] md:text-[4.75rem]">
                 {challenge.id}
               </span>
-              <span
-                className={`ml-[2rem] text-[0.8rem] font-normal not-italic leading-[normal] text-white md:text-2xl`}
-              >
-                {challenge.title}
-              </span>
+              <div className="flex flex-col ml-[2rem]">
+                <span
+                  className={`text-[0.8rem] font-normal not-italic leading-[normal] text-white md:text-2xl`}
+                >
+                  {challenge.title}
+                </span>
+                {challenge.contributor && (
+                  <>
+                  <span className="text-[0.7rem] text-gray-200 md:text-sm">
+                    Contributor: {challenge.contributor}
+                  </span>
+                  </>
+                )}
+              </div>
             </div>
             <div className="mb-[1.5rem] mt-2 flex space-x-2 md:space-x-4">
               {challenge.track.map((trackItem: string, index: number) => (
